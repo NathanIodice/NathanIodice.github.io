@@ -3,6 +3,9 @@ var logo = document.getElementsByClassName("biglogo")[0].classList;
 var myName = document.getElementById("myName").classList;
 var about = document.getElementById("about");
 function startUp() {
+    window.scroll({
+        top:0,
+    })
     welcome.remove("hide");
     welcome.add("appear");
     setTimeout(function(){
@@ -20,6 +23,12 @@ function startUp() {
                     behavior: 'smooth'
                   });
                   document.querySelector("html").classList.remove("noscroll");
+                  setTimeout(function(){
+                    logo.remove("hide");
+                    myName.remove("hide");
+                    logo.remove("appear");
+                    myName.remove("appear");
+                  },500)
             },3200)
         },3200)
     },3200)
