@@ -63,6 +63,8 @@ header h2 {
 }
 
 hr{
+
+    border: none;
     border-top: 10px dotted;
     width: 20%;
     margin: 100px auto;
