@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher-Lower</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Higher - Lower</h1>
+
+    <div class="container">
+
+        <div class="max_number_container">
+            <h2>Choose Max Number</h2>
+            <input type="number" min= 5 id="max_input" value="5" placeholder="Choose Max Number">
+            <button onclick=changeMaxNumber()>Go</button>
+        </div>
+
+        <div class="high_low_container">
+            <div class="lower bigbox box">Lower</div>
+
+            <div class="numbers">
+                <div class="random_number smallbox box">Press Go</div>
+                <div class="next_number smallbox box">???</div>
+            </div>
+            
+            <div class="higher bigbox box">Higher</div>
+        </div>
+
+        <div class="score_container">
+            <div class="current_points">Current Score<div class="current_score">0</div></div>
+            <div class="highest_points">High Score<div class="high_score">0</div></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.678);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+body {
+    color: rgba(0, 0, 0, 0.678);
+    font-family: 'Secular One', sans-serif;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.countdown_container {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.countdown {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#cdcont {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.countdown div {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.countdown span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+#newdate {
+    color: rgba(0, 0, 0, 0.678);
+    padding: 0.5rem;
+    font-size: 2rem;
+
+    border: none;
+    background: none;
+
+}
+
+#newdate:focus {
+    outline: none;
+}
+
+#newdate:hover {
+    cursor: pointer;
+}
+
+#text {
+    margin-left: 15px;
+    background: none;
+    border: black 1px solid;
+    font-size: 1.5rem;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.678);
+    font-family: 'Secular One', sans-serif;
+}
+
+#text:focus {
+    outline: none;
+}
+
+#submit {
+    margin: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 30%;
+    background: #d43e1c;
+    border: none;
+    box-shadow: 3px 3px 2px #00000050;
+
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#submit:focus {
+    outline: none;
+}
+
+.calender {
+    background: #f9f971;
+    box-shadow: 5px 5px 5px #00000063;
+    border-radius: 2rem;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    background: #f9f971;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px #00000063;
+    margin: 10px;
+}
